@@ -27,6 +27,7 @@
 
 # OS generated files #
 ######################
+.vagrant
 .DS_Store
 ehthumbs.db
 Icon
