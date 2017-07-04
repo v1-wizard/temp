@@ -57,6 +57,9 @@ if has("gui_running")
 endif
 set ttyfast
 
+colo desert
+set guifont=Consolas:h13
+
 syntax on
 autocmd vimenter * TagbarToggle
 autocmd vimenter * NERDTree
