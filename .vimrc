@@ -153,3 +153,12 @@ let g:jedi#popup_select_first = 0
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
+"=====================================================
+"" User hotkeys
+"=====================================================
+nnoremap <F5> :ConqueTermSplit ipython<CR>
+nnoremap <F6> :exe "ConqueTermSplit ipython " . expand("%")<CR>
+let g:ConqueTerm_StartMessages = 0
+let g:ConqueTerm_CloseOnEnd = 0
+autocmd FileType python map <buffer> <leader>8 :PymodeLint<CR>
+inoremap <C-space> <C-x><C-o>
