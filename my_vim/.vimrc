@@ -36,3 +36,4 @@ colorscheme distinguished
 " Set cool arrows for nerdtree
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+let NERDTreeShowHidden = 1
