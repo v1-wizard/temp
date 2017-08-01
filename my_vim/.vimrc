@@ -10,6 +10,7 @@ Plugin 'majutsushi/tagbar'              " Cool tagbar
 
 " Code/project navigation
 Plugin 'scrooloose/nerdtree' 	    	" Project and file navigation
+Plugin 'python-mode/python-mode'	" Support for python features
 
 " Other
 Plugin 'vim-airline/vim-airline'        " Lean & mean status/tabline for vim
@@ -33,7 +34,10 @@ syntax enable
 set background=dark
 colorscheme distinguished
 
-" Set cool arrows for nerdtree
+" Set config for nerdtree
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 let NERDTreeShowHidden = 1
+
+" Set config for python-mode
+" TODO
